@@ -107,13 +107,13 @@ async def bot_start(event):  # sourcery skip: low-code-quality
             start_msg = f"Hey! 👤{mention},\
                         \nI am {my_mention}'s assistant bot.\
                         \nYou can contact to my master from here.\
-                        \n\nPowered by [Catuserbot](https://t.me/catuserbot)"
+                        \n\nPowered by [RishabhBoT](https://t.me/useless_group_xddd)"
         buttons = [
             (
-                Button.url("Repo", "https://github.com/TgCatUB/catuserbot"),
+                Button.url("Repo", "https://telegra.ph/file/d29c58ced5067cc20315b.jpg"),
                 Button.url(
                     "Deploy",
-                    "https://github.com/TgCatUB/nekopack",
+                    "https://telegra.ph/file/d29c58ced5067cc20315b.jpg",
                 ),
             )
         ]
@@ -432,7 +432,7 @@ async def bot_pm_ban_cb(c_q: CallbackQuery):
     else:
         await c_q.answer(f"Banning UserID -> {user_id} ...", alert=False)
         await ban_user_from_bot(user, "Spamming Bot")
-        await c_q.edit(f"✅ **Successfully Banned**  User ID: {user_id}")
+        await c_q.edit(f"✅ **Successfully Banned NIKAL BKL **  User ID: {user_id}")
 
 
 def time_now() -> Union[float, int]:
